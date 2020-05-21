@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Words Table View Controller-->
+        <!--Swift Vocabulary-->
         <scene sceneID="IiY-In-Fp7">
             <objects>
                 <tableViewController id="mCa-nj-ne6" customClass="WordsTableViewController" customModule="Swift_Vocabulary" customModuleProvider="target" sceneMemberID="viewController">
@@ -42,7 +42,7 @@
                             <outlet property="delegate" destination="mCa-nj-ne6" id="93s-lK-9uw"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="Uxh-MQ-5yB"/>
+                    <navigationItem key="navigationItem" title="Swift Vocabulary" id="Uxh-MQ-5yB"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Agu-mS-d40" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
